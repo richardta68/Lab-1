@@ -582,4 +582,4 @@ const listingAscendingly: Listing[] = [...listings].sort((a, b) => {
  */
 //WRITE YOUR CODE BELOW
 
-
+const townhouseListings: Listing[] = listings.filter(listing => listing.propertySummary.buildingType === "Townhouse");
